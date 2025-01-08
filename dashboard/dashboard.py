@@ -9,7 +9,9 @@ df = pd.read_csv("dashboard/final_cleaned_data.csv")
 
 # Side bar
 with st.sidebar:
+    st.image("dashboard/cycle.png", use_column_width=True)
     st.write("Choose the period to be analyzed")
+    
     col1, col2 = st.columns(2)
     
     with col1:
