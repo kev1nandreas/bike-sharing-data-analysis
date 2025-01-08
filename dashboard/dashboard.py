@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 from function import generate_seasonal_data, generate_hourly_data, date_num_to_string
 
-df = pd.read_csv(r"dashboard\final_cleaned_data.csv")
+df = pd.read_csv("dashboard/final_cleaned_data.csv")
 
 # Side bar
 with st.sidebar:
