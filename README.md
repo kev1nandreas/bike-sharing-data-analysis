@@ -36,7 +36,7 @@ bike-sharing-data-analysis
     ```
 2. Go to the project directory
     ```
-    cd data-analyst-dicoding
+    cd bike-sharing-data-analysis
     ```
 3. Install the required Python packages by running:
     ```
